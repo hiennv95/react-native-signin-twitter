@@ -7,67 +7,123 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		8253856B2112B575001250E5 /* TwitterKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 825385682112B575001250E5 /* TwitterKit.framework */; };
-		8253856C2112B576001250E5 /* TwitterCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8253856A2112B575001250E5 /* TwitterCore.framework */; };
+		6AC07E5C212CFA2100581AEF /* TwitterCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6AC07E59212CFA2100581AEF /* TwitterCore.framework */; };
+		6AC07E5D212CFA2100581AEF /* TwitterKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6AC07E5A212CFA2100581AEF /* TwitterKit.framework */; };
 		D0EFAE3C1F07833600325F6D /* RNTwitterSignIn.m in Sources */ = {isa = PBXBuildFile; fileRef = D0EFAE3A1F07833600325F6D /* RNTwitterSignIn.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		D003110F1F09F8C400448DF6 /* PBXContainerItemProxy */ = {
+		6AC07E72212CFC1C00581AEF /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
-			containerPortal = D00311041F09F8C400448DF6 /* React.xcodeproj */;
+			containerPortal = 6AC07E5F212CFC1C00581AEF /* React.xcodeproj */;
 			proxyType = 2;
 			remoteGlobalIDString = 83CBBA2E1A601D0E00E9B192;
 			remoteInfo = React;
 		};
-		D00311111F09F8C400448DF6 /* PBXContainerItemProxy */ = {
+		6AC07E74212CFC1C00581AEF /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
-			containerPortal = D00311041F09F8C400448DF6 /* React.xcodeproj */;
+			containerPortal = 6AC07E5F212CFC1C00581AEF /* React.xcodeproj */;
 			proxyType = 2;
 			remoteGlobalIDString = 2D2A28131D9B038B00D4039D;
 			remoteInfo = "React-tvOS";
 		};
-		D00311131F09F8C400448DF6 /* PBXContainerItemProxy */ = {
+		6AC07E76212CFC1C00581AEF /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
-			containerPortal = D00311041F09F8C400448DF6 /* React.xcodeproj */;
+			containerPortal = 6AC07E5F212CFC1C00581AEF /* React.xcodeproj */;
 			proxyType = 2;
 			remoteGlobalIDString = 3D3C059A1DE3340900C268FA;
 			remoteInfo = yoga;
 		};
-		D00311151F09F8C400448DF6 /* PBXContainerItemProxy */ = {
+		6AC07E78212CFC1C00581AEF /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
-			containerPortal = D00311041F09F8C400448DF6 /* React.xcodeproj */;
+			containerPortal = 6AC07E5F212CFC1C00581AEF /* React.xcodeproj */;
 			proxyType = 2;
 			remoteGlobalIDString = 3D3C06751DE3340C00C268FA;
 			remoteInfo = "yoga-tvOS";
 		};
-		D00311171F09F8C400448DF6 /* PBXContainerItemProxy */ = {
+		6AC07E7A212CFC1C00581AEF /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
-			containerPortal = D00311041F09F8C400448DF6 /* React.xcodeproj */;
+			containerPortal = 6AC07E5F212CFC1C00581AEF /* React.xcodeproj */;
 			proxyType = 2;
 			remoteGlobalIDString = 3D3CD9251DE5FBEC00167DC4;
 			remoteInfo = cxxreact;
 		};
-		D00311191F09F8C400448DF6 /* PBXContainerItemProxy */ = {
+		6AC07E7C212CFC1C00581AEF /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
-			containerPortal = D00311041F09F8C400448DF6 /* React.xcodeproj */;
+			containerPortal = 6AC07E5F212CFC1C00581AEF /* React.xcodeproj */;
 			proxyType = 2;
 			remoteGlobalIDString = 3D3CD9321DE5FBEE00167DC4;
 			remoteInfo = "cxxreact-tvOS";
 		};
-		D003111B1F09F8C400448DF6 /* PBXContainerItemProxy */ = {
+		6AC07E7E212CFC1C00581AEF /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
-			containerPortal = D00311041F09F8C400448DF6 /* React.xcodeproj */;
+			containerPortal = 6AC07E5F212CFC1C00581AEF /* React.xcodeproj */;
 			proxyType = 2;
 			remoteGlobalIDString = 3D3CD90B1DE5FBD600167DC4;
 			remoteInfo = jschelpers;
 		};
-		D003111D1F09F8C400448DF6 /* PBXContainerItemProxy */ = {
+		6AC07E80212CFC1C00581AEF /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
-			containerPortal = D00311041F09F8C400448DF6 /* React.xcodeproj */;
+			containerPortal = 6AC07E5F212CFC1C00581AEF /* React.xcodeproj */;
 			proxyType = 2;
 			remoteGlobalIDString = 3D3CD9181DE5FBD800167DC4;
 			remoteInfo = "jschelpers-tvOS";
+		};
+		6AC07E82212CFC1C00581AEF /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 6AC07E5F212CFC1C00581AEF /* React.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = EBF21BDC1FC498900052F4D5;
+			remoteInfo = jsinspector;
+		};
+		6AC07E84212CFC1C00581AEF /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 6AC07E5F212CFC1C00581AEF /* React.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = EBF21BFA1FC4989A0052F4D5;
+			remoteInfo = "jsinspector-tvOS";
+		};
+		6AC07E86212CFC1C00581AEF /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 6AC07E5F212CFC1C00581AEF /* React.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 139D7ECE1E25DB7D00323FB7;
+			remoteInfo = "third-party";
+		};
+		6AC07E88212CFC1C00581AEF /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 6AC07E5F212CFC1C00581AEF /* React.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 3D383D3C1EBD27B6005632C8;
+			remoteInfo = "third-party-tvOS";
+		};
+		6AC07E8A212CFC1C00581AEF /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 6AC07E5F212CFC1C00581AEF /* React.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 139D7E881E25C6D100323FB7;
+			remoteInfo = "double-conversion";
+		};
+		6AC07E8C212CFC1C00581AEF /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 6AC07E5F212CFC1C00581AEF /* React.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 3D383D621EBD27B9005632C8;
+			remoteInfo = "double-conversion-tvOS";
+		};
+		6AC07E8E212CFC1C00581AEF /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 6AC07E5F212CFC1C00581AEF /* React.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 9936F3131F5F2E4B0010BF04;
+			remoteInfo = privatedata;
+		};
+		6AC07E90212CFC1C00581AEF /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 6AC07E5F212CFC1C00581AEF /* React.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 9936F32F1F5F2E5B0010BF04;
+			remoteInfo = "privatedata-tvOS";
 		};
 /* End PBXContainerItemProxy section */
 
@@ -84,11 +140,11 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
-		825385672112B575001250E5 /* TwitterKitResources.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; name = TwitterKitResources.bundle; path = dependencies/TwitterKit.framework/TwitterKitResources.bundle; sourceTree = "<group>"; };
-		825385682112B575001250E5 /* TwitterKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = TwitterKit.framework; path = dependencies/TwitterKit.framework; sourceTree = "<group>"; };
-		825385692112B575001250E5 /* TwitterShareExtensionUIResources.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; name = TwitterShareExtensionUIResources.bundle; path = dependencies/TwitterKit.framework/TwitterShareExtensionUIResources.bundle; sourceTree = "<group>"; };
-		8253856A2112B575001250E5 /* TwitterCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = TwitterCore.framework; path = dependencies/TwitterCore.framework; sourceTree = "<group>"; };
-		D00311041F09F8C400448DF6 /* React.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = React.xcodeproj; path = "../node_modules/react-native/React/React.xcodeproj"; sourceTree = "<group>"; };
+		6AC07E58212CFA2100581AEF /* TwitterKitResources.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; name = TwitterKitResources.bundle; path = dependencies/TwitterKit.framework/TwitterKitResources.bundle; sourceTree = "<group>"; };
+		6AC07E59212CFA2100581AEF /* TwitterCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = TwitterCore.framework; path = dependencies/TwitterCore.framework; sourceTree = "<group>"; };
+		6AC07E5A212CFA2100581AEF /* TwitterKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = TwitterKit.framework; path = dependencies/TwitterKit.framework; sourceTree = "<group>"; };
+		6AC07E5B212CFA2100581AEF /* TwitterShareExtensionUIResources.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; name = TwitterShareExtensionUIResources.bundle; path = dependencies/TwitterKit.framework/TwitterShareExtensionUIResources.bundle; sourceTree = "<group>"; };
+		6AC07E5F212CFC1C00581AEF /* React.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = React.xcodeproj; path = "../node_modules/react-native/React/React.xcodeproj"; sourceTree = "<group>"; };
 		D07E57251F07806700A7160F /* libRNTwitterSignIn.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libRNTwitterSignIn.a; sourceTree = BUILT_PRODUCTS_DIR; };
 		D0EFAE3A1F07833600325F6D /* RNTwitterSignIn.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RNTwitterSignIn.m; sourceTree = "<group>"; };
 		D0EFAE3B1F07833600325F6D /* RNTwitterSignIn.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RNTwitterSignIn.h; sourceTree = "<group>"; };
@@ -99,25 +155,33 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				8253856B2112B575001250E5 /* TwitterKit.framework in Frameworks */,
-				8253856C2112B576001250E5 /* TwitterCore.framework in Frameworks */,
+				6AC07E5C212CFA2100581AEF /* TwitterCore.framework in Frameworks */,
+				6AC07E5D212CFA2100581AEF /* TwitterKit.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		D00311051F09F8C400448DF6 /* Products */ = {
+		6AC07E60212CFC1C00581AEF /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				D00311101F09F8C400448DF6 /* libReact.a */,
-				D00311121F09F8C400448DF6 /* libReact.a */,
-				D00311141F09F8C400448DF6 /* libyoga.a */,
-				D00311161F09F8C400448DF6 /* libyoga.a */,
-				D00311181F09F8C400448DF6 /* libcxxreact.a */,
-				D003111A1F09F8C400448DF6 /* libcxxreact.a */,
-				D003111C1F09F8C400448DF6 /* libjschelpers.a */,
-				D003111E1F09F8C400448DF6 /* libjschelpers.a */,
+				6AC07E73212CFC1C00581AEF /* libReact.a */,
+				6AC07E75212CFC1C00581AEF /* libReact.a */,
+				6AC07E77212CFC1C00581AEF /* libyoga.a */,
+				6AC07E79212CFC1C00581AEF /* libyoga.a */,
+				6AC07E7B212CFC1C00581AEF /* libcxxreact.a */,
+				6AC07E7D212CFC1C00581AEF /* libcxxreact.a */,
+				6AC07E7F212CFC1C00581AEF /* libjschelpers.a */,
+				6AC07E81212CFC1C00581AEF /* libjschelpers.a */,
+				6AC07E83212CFC1C00581AEF /* libjsinspector.a */,
+				6AC07E85212CFC1C00581AEF /* libjsinspector-tvOS.a */,
+				6AC07E87212CFC1C00581AEF /* libthird-party.a */,
+				6AC07E89212CFC1C00581AEF /* libthird-party.a */,
+				6AC07E8B212CFC1C00581AEF /* libdouble-conversion.a */,
+				6AC07E8D212CFC1C00581AEF /* libdouble-conversion.a */,
+				6AC07E8F212CFC1C00581AEF /* libprivatedata.a */,
+				6AC07E91212CFC1C00581AEF /* libprivatedata-tvOS.a */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -125,11 +189,11 @@
 		D07E571C1F07806700A7160F = {
 			isa = PBXGroup;
 			children = (
-				8253856A2112B575001250E5 /* TwitterCore.framework */,
-				825385682112B575001250E5 /* TwitterKit.framework */,
-				825385672112B575001250E5 /* TwitterKitResources.bundle */,
-				825385692112B575001250E5 /* TwitterShareExtensionUIResources.bundle */,
-				D00311041F09F8C400448DF6 /* React.xcodeproj */,
+				6AC07E5F212CFC1C00581AEF /* React.xcodeproj */,
+				6AC07E59212CFA2100581AEF /* TwitterCore.framework */,
+				6AC07E5A212CFA2100581AEF /* TwitterKit.framework */,
+				6AC07E58212CFA2100581AEF /* TwitterKitResources.bundle */,
+				6AC07E5B212CFA2100581AEF /* TwitterShareExtensionUIResources.bundle */,
 				D0EFAE3A1F07833600325F6D /* RNTwitterSignIn.m */,
 				D0EFAE3B1F07833600325F6D /* RNTwitterSignIn.h */,
 				D07E57261F07806700A7160F /* Products */,
@@ -170,7 +234,7 @@
 		D07E571D1F07806700A7160F /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
-				LastUpgradeCheck = 0830;
+				LastUpgradeCheck = 0940;
 				ORGANIZATIONNAME = "Golden Owl Consulting";
 				TargetAttributes = {
 					D07E57241F07806700A7160F = {
@@ -191,8 +255,8 @@
 			projectDirPath = "";
 			projectReferences = (
 				{
-					ProductGroup = D00311051F09F8C400448DF6 /* Products */;
-					ProjectRef = D00311041F09F8C400448DF6 /* React.xcodeproj */;
+					ProductGroup = 6AC07E60212CFC1C00581AEF /* Products */;
+					ProjectRef = 6AC07E5F212CFC1C00581AEF /* React.xcodeproj */;
 				},
 			);
 			projectRoot = "";
@@ -203,60 +267,116 @@
 /* End PBXProject section */
 
 /* Begin PBXReferenceProxy section */
-		D00311101F09F8C400448DF6 /* libReact.a */ = {
+		6AC07E73212CFC1C00581AEF /* libReact.a */ = {
 			isa = PBXReferenceProxy;
 			fileType = archive.ar;
 			path = libReact.a;
-			remoteRef = D003110F1F09F8C400448DF6 /* PBXContainerItemProxy */;
+			remoteRef = 6AC07E72212CFC1C00581AEF /* PBXContainerItemProxy */;
 			sourceTree = BUILT_PRODUCTS_DIR;
 		};
-		D00311121F09F8C400448DF6 /* libReact.a */ = {
+		6AC07E75212CFC1C00581AEF /* libReact.a */ = {
 			isa = PBXReferenceProxy;
 			fileType = archive.ar;
 			path = libReact.a;
-			remoteRef = D00311111F09F8C400448DF6 /* PBXContainerItemProxy */;
+			remoteRef = 6AC07E74212CFC1C00581AEF /* PBXContainerItemProxy */;
 			sourceTree = BUILT_PRODUCTS_DIR;
 		};
-		D00311141F09F8C400448DF6 /* libyoga.a */ = {
+		6AC07E77212CFC1C00581AEF /* libyoga.a */ = {
 			isa = PBXReferenceProxy;
 			fileType = archive.ar;
 			path = libyoga.a;
-			remoteRef = D00311131F09F8C400448DF6 /* PBXContainerItemProxy */;
+			remoteRef = 6AC07E76212CFC1C00581AEF /* PBXContainerItemProxy */;
 			sourceTree = BUILT_PRODUCTS_DIR;
 		};
-		D00311161F09F8C400448DF6 /* libyoga.a */ = {
+		6AC07E79212CFC1C00581AEF /* libyoga.a */ = {
 			isa = PBXReferenceProxy;
 			fileType = archive.ar;
 			path = libyoga.a;
-			remoteRef = D00311151F09F8C400448DF6 /* PBXContainerItemProxy */;
+			remoteRef = 6AC07E78212CFC1C00581AEF /* PBXContainerItemProxy */;
 			sourceTree = BUILT_PRODUCTS_DIR;
 		};
-		D00311181F09F8C400448DF6 /* libcxxreact.a */ = {
+		6AC07E7B212CFC1C00581AEF /* libcxxreact.a */ = {
 			isa = PBXReferenceProxy;
 			fileType = archive.ar;
 			path = libcxxreact.a;
-			remoteRef = D00311171F09F8C400448DF6 /* PBXContainerItemProxy */;
+			remoteRef = 6AC07E7A212CFC1C00581AEF /* PBXContainerItemProxy */;
 			sourceTree = BUILT_PRODUCTS_DIR;
 		};
-		D003111A1F09F8C400448DF6 /* libcxxreact.a */ = {
+		6AC07E7D212CFC1C00581AEF /* libcxxreact.a */ = {
 			isa = PBXReferenceProxy;
 			fileType = archive.ar;
 			path = libcxxreact.a;
-			remoteRef = D00311191F09F8C400448DF6 /* PBXContainerItemProxy */;
+			remoteRef = 6AC07E7C212CFC1C00581AEF /* PBXContainerItemProxy */;
 			sourceTree = BUILT_PRODUCTS_DIR;
 		};
-		D003111C1F09F8C400448DF6 /* libjschelpers.a */ = {
+		6AC07E7F212CFC1C00581AEF /* libjschelpers.a */ = {
 			isa = PBXReferenceProxy;
 			fileType = archive.ar;
 			path = libjschelpers.a;
-			remoteRef = D003111B1F09F8C400448DF6 /* PBXContainerItemProxy */;
+			remoteRef = 6AC07E7E212CFC1C00581AEF /* PBXContainerItemProxy */;
 			sourceTree = BUILT_PRODUCTS_DIR;
 		};
-		D003111E1F09F8C400448DF6 /* libjschelpers.a */ = {
+		6AC07E81212CFC1C00581AEF /* libjschelpers.a */ = {
 			isa = PBXReferenceProxy;
 			fileType = archive.ar;
 			path = libjschelpers.a;
-			remoteRef = D003111D1F09F8C400448DF6 /* PBXContainerItemProxy */;
+			remoteRef = 6AC07E80212CFC1C00581AEF /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		6AC07E83212CFC1C00581AEF /* libjsinspector.a */ = {
+			isa = PBXReferenceProxy;
+			fileType = archive.ar;
+			path = libjsinspector.a;
+			remoteRef = 6AC07E82212CFC1C00581AEF /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		6AC07E85212CFC1C00581AEF /* libjsinspector-tvOS.a */ = {
+			isa = PBXReferenceProxy;
+			fileType = archive.ar;
+			path = "libjsinspector-tvOS.a";
+			remoteRef = 6AC07E84212CFC1C00581AEF /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		6AC07E87212CFC1C00581AEF /* libthird-party.a */ = {
+			isa = PBXReferenceProxy;
+			fileType = archive.ar;
+			path = "libthird-party.a";
+			remoteRef = 6AC07E86212CFC1C00581AEF /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		6AC07E89212CFC1C00581AEF /* libthird-party.a */ = {
+			isa = PBXReferenceProxy;
+			fileType = archive.ar;
+			path = "libthird-party.a";
+			remoteRef = 6AC07E88212CFC1C00581AEF /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		6AC07E8B212CFC1C00581AEF /* libdouble-conversion.a */ = {
+			isa = PBXReferenceProxy;
+			fileType = archive.ar;
+			path = "libdouble-conversion.a";
+			remoteRef = 6AC07E8A212CFC1C00581AEF /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		6AC07E8D212CFC1C00581AEF /* libdouble-conversion.a */ = {
+			isa = PBXReferenceProxy;
+			fileType = archive.ar;
+			path = "libdouble-conversion.a";
+			remoteRef = 6AC07E8C212CFC1C00581AEF /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		6AC07E8F212CFC1C00581AEF /* libprivatedata.a */ = {
+			isa = PBXReferenceProxy;
+			fileType = archive.ar;
+			path = libprivatedata.a;
+			remoteRef = 6AC07E8E212CFC1C00581AEF /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		6AC07E91212CFC1C00581AEF /* libprivatedata-tvOS.a */ = {
+			isa = PBXReferenceProxy;
+			fileType = archive.ar;
+			path = "libprivatedata-tvOS.a";
+			remoteRef = 6AC07E90212CFC1C00581AEF /* PBXContainerItemProxy */;
 			sourceTree = BUILT_PRODUCTS_DIR;
 		};
 /* End PBXReferenceProxy section */
@@ -283,15 +403,23 @@
 				CLANG_CXX_LIBRARY = "libc++";
 				CLANG_ENABLE_MODULES = YES;
 				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
 				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
 				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
 				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
 				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
 				CLANG_WARN_EMPTY_BODY = YES;
 				CLANG_WARN_ENUM_CONVERSION = YES;
 				CLANG_WARN_INFINITE_RECURSION = YES;
 				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
 				CLANG_WARN_SUSPICIOUS_MOVE = YES;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
@@ -314,7 +442,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				MTL_ENABLE_DEBUG_INFO = YES;
 				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = iphoneos;
@@ -331,15 +459,23 @@
 				CLANG_CXX_LIBRARY = "libc++";
 				CLANG_ENABLE_MODULES = YES;
 				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
 				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
 				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
 				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
 				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
 				CLANG_WARN_EMPTY_BODY = YES;
 				CLANG_WARN_ENUM_CONVERSION = YES;
 				CLANG_WARN_INFINITE_RECURSION = YES;
 				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
 				CLANG_WARN_SUSPICIOUS_MOVE = YES;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
@@ -356,7 +492,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				SDKROOT = iphoneos;
 				VALIDATE_PRODUCT = YES;
@@ -369,6 +505,7 @@
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
 					"$(PROJECT_DIR)/dependencies",
+					"$(PROJECT_DIR)",
 				);
 				HEADER_SEARCH_PATHS = (
 					"$(inherited)",
@@ -387,6 +524,7 @@
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
 					"$(PROJECT_DIR)/dependencies",
+					"$(PROJECT_DIR)",
 				);
 				HEADER_SEARCH_PATHS = (
 					"$(inherited)",
